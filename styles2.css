@@ -2,6 +2,24 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  margin-left: 10px;
+  padding-top: 30px;
+}
+
+.search_bar {
+  width: 600px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 600px;
+  margin-left: 110px;
+  margin-top: 10px;
+  padding-bottom: 20px;
 }
 
 .top_left {
@@ -12,21 +30,20 @@
 
 .results_logo {
   width: 100px;
-  height:40px;
-  /*margin-top: 20px;*/
+  height: auto;
   margin-right: 10px;
-}
-
-.search_bar {
-  /*width: 500px;*/
-  /*height: 40px;*/
-  /*margin-top: -40px;*/
 }
 
 .header {
   display: flex;
   align-self: flex-end;
   margin-top: 10px;
+  margin-right: 10px;
+}
+
+.top {
+  background-color: rgba(211,211,211,.2);
+  margin: -20px -10px;
 }
 
 a {
