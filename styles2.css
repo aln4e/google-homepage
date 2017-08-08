@@ -3,9 +3,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*do i have to hardcode the pixels here??*/
-  height: 750px;
-  /*height: 100%;*/
+  height: 100vh;
+  min-height: 500px;
+  min-width: 500px;
 }
 
 .nav {
@@ -43,15 +43,12 @@
   border: 1px solid black;
   display: flex;
   flex-direction: row;
-  flex: 3;
+  flex: 4;
 }
 
 .news_and_results {
   border: 1px solid black;
-  /*width: 50%;*/
   margin: 1% 1% 1% 10%;
-  /*margin-top: 1%;*/
-  /*margin-bottom: 1%;*/
   flex: 1.35;
   display: flex;
   flex-direction: column;
@@ -95,10 +92,27 @@
 
 .wiki {
   border: 1px solid black;
-  /*width: 50%;*/
   margin: 1%;
-  /*margin-bottom: 1%;*/
   flex: 1;
   display: flex;
   flex-direction: column;
+  height: 50%;
+}
+
+.wiki_row_lg {
+  border: 1px solid black;
+  margin: 1%;
+  flex: 3;
+}
+
+.wiki_row_md {
+  border: 1px solid black;
+  margin: 1%;
+  flex: 2;
+}
+
+.wiki_row_sm {
+  border: 1px solid black;
+  margin: 1%;
+  flex: 1;
 }
