@@ -4,8 +4,8 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  min-height: 500px;
-  min-width: 500px;
+  min-height: 600px;
+  min-width: 800px;
 }
 
 .nav {
@@ -23,8 +23,8 @@
   border: 1px solid black;
   width: 98%;
   margin-left: 1%;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  margin-bottom: 1%;
+  margin-top: 1%;
   flex: 1;
 }
 
@@ -32,7 +32,7 @@
   border: 1px solid black;
   width: 50%;
   margin-left: 10%;
-  margin-bottom: 5px;
+  margin-bottom: 1%;
   flex: 1;
 }
 
